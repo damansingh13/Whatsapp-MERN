@@ -20,7 +20,7 @@ const Header = () => {
 
     return (
       <Component>
-        <Image src = {account.picture} alt="dp" />
+        <Image src = {account.picture} alt="dp" sizes='10px' />
       </Component>
     )
 }
